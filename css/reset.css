@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --navbar-height:52px;
+}
+
+#logo{
+    margin: 0px 10px;
+    display:flex;
+    align-items:center;
+    justify-items: center;
+}
+
+#logo img{
+    height: 40px;
+    width: 40px;
+    margin-right:10px;
+}
+#login,#signup{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+#navbar{
+    display:flex;
+    align-items: center;
+}
+#navbar::before{
+    background-color: black;
+    position: absolute;
+    content: "";
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    opacity: 2;
+}
+#navbar ul{
+    display: flex;
+    font-size: 1.2rem;
+    margin-left: 100px;
+}
+
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-right: 5px;
+    padding: 30px;
+    
+    
+}
+
+#navbar ul li a{
+    display:block;
+    padding-right: 6px;
+    border-radius: 20px;
+    padding-left: 6px;
+    text-decoration: none;
+    height: 30px;
+    color:  white;
+    
+}
+
+#navbar ul li a:hover{
+    background-color: skyblue;
+    height: 30px;
+    align-items: center;
+}
+#navbar ul li a:active{
+    color:yellow;
+}
+
+#category{
+    margin-left: 90px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+#upload{
+    background-color:red;
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/*home*/
+
+#home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 200px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+#home::before{
+    background: url("C:/Users/PC/Desktop/Code playground/Web Development/Frontend Project/Responsive_website/Home_page_background.jpg");
+    background-size: cover;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+
+
+}
+
+#home h1{
+    text-align:center;
+    color:black;
+    margin-bottom: 30px;
+    
+}
+
+#home p{
+    color: black;
+    font-size: 1.2 rem;
+    
+}
+.h-primary{
+    font-size:3.8rem;
+    padding: 13px;
+}
+
+#btn{
+    margin: 8px;
+    align-items: center;
+    background-color: crimson;
+    opacity: 0.5;
+    padding:5px;
+    color: white;
+    width: 60px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+#search{
+    display:flex; 
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#search::before{
+    background-color: black;
+    opacity: 0.4;
+
+}
+
+#searchtext{
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+
+
+#signup{
+        margin-right: 10px;
+        background-color: black;
+        color: white;
+        opacity: 0.3;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+
+ #login{
+        margin-right: 10px;
+        background-color: black;
+        color: white;
+        opacity: 0.3;
+        padding: 5px;
+        border-radius: 10px;
+        width: 100px;
+    }
+
+#home-lines{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        margin: 40px;
+        padding: 5px;
+        color: white;
+        width: 600px;
+        background-color: black;  
+        opacity: 0.4;
+}
+
+#gallery{
+    background:url("C:/Users/PC/Desktop/Code playground/Web Development/Frontend Project/Responsive_website/Gallery Background.jpg") ;
+    margin-top: 100px;;
+    border-color: black;
+
+}
+#images-heading{
+    color:white;
+    margin: 30px;
+    
+}
+#images{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+#images li{
+    padding: 5px;
+    list-style: none;
+}
+#images li img{
+    size-adjust:calc(20%);
+    margin: 10px;
+    border: red;
+
+}
+
+
+
+
+
+
+
+    
+
+
+
