@@ -108,7 +108,7 @@
 }
 
 #home::before{
-    background: url("C:/Users/PC/Desktop/Code playground/Web Development/Frontend Project/Responsive_website/Home_page_background.jpg");
+    background: url("./Home_page_background.jpg");
     background-size: cover;
     position: absolute;
     content: "";
@@ -204,7 +204,7 @@
 }
 
 #gallery{
-    background:url("C:/Users/PC/Desktop/Code playground/Web Development/Frontend Project/Responsive_website/Gallery Background.jpg") ;
+    background:url("./Gallery Background.jpg") ;
     margin-top: 100px;;
     border-color: black;
 
